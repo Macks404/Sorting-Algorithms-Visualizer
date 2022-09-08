@@ -19,7 +19,8 @@ int main()
 
     int comparisons = 0;
 
-    sf::RenderWindow win(sf::VideoMode(winX, winY), "Sort Algorithm Visualizer By Macks404");
+    sf::RenderWindow win(sf::VideoMode(winX, winY), "Sort Algorithm Visualizer By Macks404", sf::Style::Close);
+    
 
     sf::Font font;
     sf::Text text;

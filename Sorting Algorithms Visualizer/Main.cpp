@@ -25,7 +25,7 @@ int main()
     sf::Font font;
     sf::Text text;
 
-    font.loadFromFile("D:\\Fonts\\Roboto\\Roboto-Regular.ttf");
+    font.loadFromFile("Roboto-Regular.ttf");
     text.setFont(font);
     text.setString("Comparisons: 0");
 
